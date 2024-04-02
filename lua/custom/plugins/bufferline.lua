@@ -5,5 +5,6 @@ return {
   config = function()
     vim.opt.termguicolors = true
     require('bufferline').setup {}
+    vim.keymap.set('n', '<C-i>', ':BufferLinePick<CR>')
   end,
 }
