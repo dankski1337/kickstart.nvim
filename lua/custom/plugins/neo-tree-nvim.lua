@@ -37,7 +37,7 @@ return {
           },
         },
       },
-      vim.keymap.set('n', '<C-m>', ':Neotree filesystem reveal<CR>'),
+      vim.keymap.set('n', '<C-m>', ':Neotree filesystem<CR>'),
     }
   end,
 }
